@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_fragment_documents.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_documents.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_history.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_bg_icon_button.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/bg_icon_button.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_add.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_send.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/xml_network_security_config.xml.flat",
+        "source": "com.legaldocai.app-main-62:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_activity_document_viewer.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/activity_document_viewer.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/raw_legal_animation.json.flat",
+        "source": "com.legaldocai.app-main-62:/raw/legal_animation.json"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_item_chat_user.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_bg_send_button.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/bg_send_button.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/xml_file_paths.xml.flat",
+        "source": "com.legaldocai.app-main-62:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_person_small.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_person_small.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_item_chat_bot.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_settings.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_fragment_home.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_item_history.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_delete.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_activity_splash.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_fragment_history.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/navigation_nav_graph.xml.flat",
+        "source": "com.legaldocai.app-main-62:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_bg_bot_avatar.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/bg_bot_avatar.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_mic.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/color_nav_selector.xml.flat",
+        "source": "com.legaldocai.app-main-62:/color/nav_selector.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_activity_main.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_home.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_mic_active.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_mic_active.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.legaldocai.app-main-62:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_fragment_settings.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/layout_item_document.xml.flat",
+        "source": "com.legaldocai.app-main-62:/layout/item_document.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_bg_doc_icon.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/bg_doc_icon.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/drawable_ic_folder.xml.flat",
+        "source": "com.legaldocai.app-main-62:/drawable/ic_folder.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-merged_res-60:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.legaldocai.app-main-62:/mipmap-xhdpi/ic_launcher.png"
+    }
+]

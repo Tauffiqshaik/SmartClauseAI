@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/item_chat_bot.xml",
+        "source": "com.legaldocai.app-main-62:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/activity_document_viewer.xml",
+        "source": "com.legaldocai.app-main-62:/layout/activity_document_viewer.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/fragment_home.xml",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/item_history.xml",
+        "source": "com.legaldocai.app-main-62:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/fragment_documents.xml",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_documents.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/item_chat_user.xml",
+        "source": "com.legaldocai.app-main-62:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/fragment_settings.xml",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/activity_splash.xml",
+        "source": "com.legaldocai.app-main-62:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/fragment_history.xml",
+        "source": "com.legaldocai.app-main-62:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "com.legaldocai.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.legaldocai.app-mergeDebugResources-59:/layout/item_document.xml",
+        "source": "com.legaldocai.app-main-62:/layout/item_document.xml"
+    }
+]

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Tamil</item>
+        <item>Arabic</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Portuguese</item>
+    </string-array>
+    <color name="accent">#64FFDA</color>
+    <color name="black">#000000</color>
+    <color name="bubble_bot">#1A3558</color>
+    <color name="bubble_bot_text">#E6F1FF</color>
+    <color name="bubble_user">#C9A84C</color>
+    <color name="bubble_user_text">#0A1628</color>
+    <color name="error">#FF6B6B</color>
+    <color name="info">#4FC3F7</color>
+    <color name="nav_selected">#C9A84C</color>
+    <color name="nav_unselected">#4A5568</color>
+    <color name="primary">#0A1628</color>
+    <color name="primary_dark">#060E1A</color>
+    <color name="primary_variant">#112240</color>
+    <color name="secondary">#C9A84C</color>
+    <color name="secondary_dark">#A8893C</color>
+    <color name="success">#64FFDA</color>
+    <color name="surface">#0D1B2A</color>
+    <color name="surface_card">#112240</color>
+    <color name="surface_elevated">#1A3558</color>
+    <color name="text_disabled">#4A5568</color>
+    <color name="text_primary">#E6F1FF</color>
+    <color name="text_secondary">#8892B0</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#FFD700</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="bubble_radius">18dp</dimen>
+    <dimen name="button_radius">12dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_headline">28sp</dimen>
+    <dimen name="text_lg">16sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_title">22sp</dimen>
+    <dimen name="text_xl">18sp</dimen>
+    <string name="api_key_label">Anthropic API Key</string>
+    <string name="app_name">LegalDoc AI</string>
+    <string name="app_tagline">Intelligent Legal Document Analysis</string>
+    <string name="ask_question">Ask a question...</string>
+    <string name="clear_history">Clear History</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="find_risks">Find Risks</string>
+    <string name="key_terms">Key Terms</string>
+    <string name="language_preference">Language Preference</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_history">History</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="no_documents">No documents yet.\nTap + to upload a legal document.</string>
+    <string name="no_history">No query history yet.</string>
+    <string name="powered_by">Powered by Claude AI</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="summarize">Summarize</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="voice_feedback">Enable Voice Feedback</string>
+    <string name="voice_hint">Listening… speak your question</string>
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="contentPaddingBottom">0dp</item>
+    </style>
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/surface_elevated</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="chipStrokeColor">@color/secondary</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+    <style name="Theme.LegalDocAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="colorSurface">@color/surface_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+    <style name="Theme.LegalDocAI.Splash" parent="Theme.LegalDocAI">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="navigationIconTint">@color/secondary</item>
+    </style>
+</resources>

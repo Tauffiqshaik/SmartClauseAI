@@ -1,0 +1,11 @@
+{
+  "name": "load-tests",
+  "version": "1.0.0",
+  "description": "k6 load tests",
+  "scripts": {
+    "test": "k6 run --out json=results.json load-test.js && node convert-k6-to-excel.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LegalDocAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="colorSurface">@color/surface_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="Theme.LegalDocAI.Splash" parent="Theme.LegalDocAI">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="contentPaddingBottom">0dp</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/surface_elevated</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="chipStrokeColor">@color/secondary</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="navigationIconTint">@color/secondary</item>
+    </style>
+
+</resources>

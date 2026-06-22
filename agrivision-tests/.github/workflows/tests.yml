@@ -1,0 +1,44 @@
+name: Agrivision v3 Automated Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18.x'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Run Selenium E2E Tests
+      run: npm run test:selenium
+      
+    - name: Run Security Tests
+      run: npm run test:security
+      
+    - name: Run Appium Mobile Tests
+      run: npm run test:appium
+      
+    - name: Generate Excel & HTML Reports
+      run: npm run generate-reports
+      
+    - name: Upload Test Reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-reports
+        path: |
+          reports/
+          screenshots/

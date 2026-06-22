@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary palette: deep navy + gold accent -->
+    <color name="primary">#0A1628</color>
+    <color name="primary_dark">#060E1A</color>
+    <color name="primary_variant">#112240</color>
+    <color name="secondary">#C9A84C</color>
+    <color name="secondary_dark">#A8893C</color>
+    <color name="accent">#64FFDA</color>
+
+    <!-- Surfaces -->
+    <color name="surface">#0D1B2A</color>
+    <color name="surface_card">#112240</color>
+    <color name="surface_elevated">#1A3558</color>
+
+    <!-- Text -->
+    <color name="text_primary">#E6F1FF</color>
+    <color name="text_secondary">#8892B0</color>
+    <color name="text_disabled">#4A5568</color>
+
+    <!-- Chat bubbles -->
+    <color name="bubble_user">#C9A84C</color>
+    <color name="bubble_bot">#1A3558</color>
+    <color name="bubble_user_text">#0A1628</color>
+    <color name="bubble_bot_text">#E6F1FF</color>
+
+    <!-- Status -->
+    <color name="success">#64FFDA</color>
+    <color name="warning">#FFD700</color>
+    <color name="error">#FF6B6B</color>
+    <color name="info">#4FC3F7</color>
+
+    <!-- White / Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Bottom nav -->
+    <color name="nav_selected">#C9A84C</color>
+    <color name="nav_unselected">#4A5568</color>
+</resources>
