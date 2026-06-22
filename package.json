@@ -1,0 +1,11 @@
+{
+  "name": "smartclauseai-root",
+  "private": true,
+  "workspaces": [
+    "agrivision-tests",
+    "load-tests",
+    "mobile-tests",
+    "vulnerability-tests",
+    "web"
+  ]
+}
