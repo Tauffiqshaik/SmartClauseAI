@@ -1,0 +1,17 @@
+{
+  "name": "agrivision-v3-tests",
+  "version": "1.0.0",
+  "description": "Automated testing framework for Agrivision v3",
+  "scripts": {
+    "test:selenium": "node tests/selenium.test.js",
+    "test:appium": "node tests/appium.test.js",
+    "test:security": "node tests/security.test.js",
+    "generate-reports": "node scripts/generate-reports.js",
+    "test:all": "npm run test:selenium && npm run test:appium && npm run test:security && npm run generate-reports"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.18.1",
+    "webdriverio": "^8.32.2",
+    "xlsx": "^0.18.5"
+  }
+}
