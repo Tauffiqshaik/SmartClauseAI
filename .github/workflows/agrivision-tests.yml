@@ -10,7 +10,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
+    defaults:
+      run:
+        working-directory: ./agrivision-tests
+        
     steps:
     - uses: actions/checkout@v4
     
@@ -34,11 +40,18 @@ jobs:
     - name: Generate Excel & HTML Reports
       run: npm run generate-reports
       
-    - name: Upload Test Reports
+    - name: Upload Test Reports Artifacts
       uses: actions/upload-artifact@v4
       if: always()
       with:
         name: test-reports
         path: |
-          reports/
-          screenshots/
+          agrivision-tests/reports/
+          agrivision-tests/screenshots/
+          
+    - name: Commit and Push Reports
+      uses: stefanzweifel/git-auto-commit-action@v5
+      if: always()
+      with:
+        commit_message: "chore: update agrivision test reports"
+        file_pattern: 'agrivision-tests/reports/* agrivision-tests/screenshots/*'
